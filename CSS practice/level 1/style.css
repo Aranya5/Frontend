@@ -1,0 +1,38 @@
+h3 {
+    color : green;
+    /* text-align: right; */
+   
+}
+
+body {
+    background-color: rgb(214, 203, 203);
+}
+
+button {
+    color: red;
+    background-color: green;
+}
+
+#headingOne {
+    color: yellow;
+    text-transform: capitalize;
+   
+}
+
+#lekha {
+    font-weight: normal;
+}
+
+.mcla {
+    color:darkorange;
+    text-decoration: blue wavy underline;
+    
+}
+
+p{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    line-height: 2;
+    
+}
