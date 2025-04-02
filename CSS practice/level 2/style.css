@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+h1 {
+    width: 250px;
+    text-align: center;
+    border : 5px dashed chocolate;
+    background-color: aqua;
+    border-radius: 25px;
+    padding: 1px 2px 3px 4px;
+    margin-bottom: 30px;
+}
+
+#love
+{ 
+    height: 200px;
+    width: 300px;
+    background-color: pink;
+    border-width: 5px;
+    border-style: dotted;
+    padding-left: 20px;
+    margin-top: 40px;
+    color: red;
+}
+
+#inline {
+    background-color: aqua;
+    display : inline-block;
+    margin-top: 40px;
+    /* display: none;
+    visibility: hidden; */
+
+}
+a {
+    text-decoration: none;
+}
+#logo {
+    margin-right: 200px;
+}
+header {
+    margin-right: 200px;
+}
