@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#container {
+    width: 800px;
+    height: 500px;
+    display: flex;
+    /* flex-direction: column-reverse; */
+    justify-content: center;/*to center along  axis */
+    justify-content: space-evenly;
+    align-items: center; /*to center along vertical axis */
+}
+
+
+#box1 {
+    background-color: aqua;
+}
+
+#box2 {
+    background-color: pink;
+
+}
+
+#box3 {
+    background-color: darkkhaki;
+    align-self: flex-start;
+}
+  
+
+#box4 {
+    background-color: indianred;
+}
+
+#box5 {
+    background-color: slateblue;
+}
+
+@media (min-width: 500px) and (max-width: 800px)
+{
+    #box1 {
+        background-color: sandybrown
+
+    }
+}
