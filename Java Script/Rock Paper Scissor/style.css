@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+body {
+    background-color: bisque;
+}
+h1 {
+    background-color:saddlebrown;
+    color: white;
+    line-height: 4rem;
+}
+.gameContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+    gap: 3rem;
+}
+
+.choices {
+    height: 177px;
+    width: 177px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choices:hover {
+    background-color: #081b31;
+    opacity: 0.9;
+}
+
+img {
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.scoreBoard {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    font-size: 1.8rem;
+    gap: 3rem;
+    margin-bottom: 2rem;
+}
+
+#userPoint, #compPoint {
+    font-size: 3rem;
+}
+
+.msgBox {
+    background-color: saddlebrown;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 4rem;
+
+}
