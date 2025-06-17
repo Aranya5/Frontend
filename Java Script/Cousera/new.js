@@ -1,3 +1,4 @@
+// This is a new JavaScript file
 console.log("New file created"); 
 var score = 8;
 console.log("Mid-lele skills: "+ (score > 0 && score < 10));
