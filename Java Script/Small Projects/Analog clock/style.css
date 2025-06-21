@@ -48,6 +48,7 @@ body {
   height: 10px;
   background-color: #fff;
   border-radius: 50%;
+  z-index: 2;
 }
 
 .hand{
@@ -61,7 +62,8 @@ body {
   position: absolute;
   background-color: var(--clr);
   width: 4px;
-  height: 100px;
+  height: var(--h);
+  border-radius: 8px;
 
 }
 
