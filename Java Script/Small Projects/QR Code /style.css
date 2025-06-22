@@ -1,6 +1,8 @@
 :root{
   --bcg-color: #001122;
   --primary-color: #155e75;
+  --secondary-color: #fff;
+  --border-color: #7fb7c9;
 }
 *{
   margin: 0;
@@ -21,6 +23,46 @@ body{
 .box{
   background-color: var(--primary-color);
   padding: 30px;
-  width: 400px;
+  width: 420px;
+  border-radius: 8px;
+}
+
+.qr-header h1{
+  font-size: 26px;
+  text-align: center;
+  color: var(--secondary-color);
+  text-transform: uppercase;
+}
+
+.qr-header input{
+  width: 100%;
+  margin-block:12px;
+}
+
+.qr-header input, select{
+  padding: 8px;
+  border-radius: 8px;
+  font-size: 18px;
+  outline: none;
+  border: 2px solid var(--border-color);
+}
+
+.qr-header label{
+  color: var(--secondary-color);
+  font-size: 20px;
+}
+
+.qr-footer{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.qr-footer a{
+  background-color: var(--secondary-color);
+  text-decoration: none;
+  padding: 14px 36px;
+  margin-inline: 2px;
+  color: var(--primary-color);
+  font-weight: 600;
   border-radius: 8px;
 }
