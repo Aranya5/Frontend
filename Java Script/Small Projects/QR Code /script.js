@@ -10,7 +10,12 @@ generateBtn.addEventListener("click", (e) => {
   generateQRCode();
 });
 
+sizes.addEventListener("change", (e) => {
+  size = e.target.value;
+  generateQRCode();
+  });
 function generateQRCode(){
+  qrContainer.innerHTML = ''; // Clear previous QR code
   new QRCode(qrContainer, {
     text: qrText.value,
     width: size,
