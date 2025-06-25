@@ -17,7 +17,7 @@ sizes.addEventListener("change", (e) => {
 
   downloadBtn.addEventListener('click', (e)=>{
   let img = document.querySelector('.qr-body img');
-  if(img !== null){
+  if(img !== null){// Check if QR code is generated
       let imgAtrr = img.getAttribute('src');
       downloadBtn.setAttribute("href", imgAtrr);
       downloadBtn.setAttribute("download", "QRCode.png");
@@ -38,7 +38,7 @@ function isEmptyInput(){
 }
 
 function generateQRCode(){
-  qrContainer.innerHTML = ''; // Clear previous QR code
+  qrContainer.innerHTML = ''; // Clear previous QR code 
   new QRCode(qrContainer, {
     text: qrText.value,
     width: size,
