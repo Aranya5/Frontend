@@ -20,7 +20,7 @@ sizes.addEventListener("change", (e) => {
   if(img !== null){// Check if QR code is generated
       let imgAtrr = img.getAttribute('src');
       downloadBtn.setAttribute("href", imgAtrr);
-      downloadBtn.setAttribute("download", "QRCode.png");
+      downloadBtn.setAttribute("download", "QRCode.png");//download the QR code as PNG
   }
   else{
       alert("Please generate a QR Code first before downloading");
