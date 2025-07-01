@@ -19,5 +19,10 @@ body {
   top: 50%;
   border-radius: 0.6rem;
   box-shadow: 0 0.9em 28em rgba(86,66,0,0.2);
-  
+}
+
+.game-container {
+ position: relative;
+ width: 100%;
+ display: grid;
 }
