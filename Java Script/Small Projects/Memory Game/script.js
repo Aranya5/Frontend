@@ -11,7 +11,7 @@ let interval;
 let firstcard = false;
 let secondcard = false;
 
-//iteams array for storing
+//iteams array for storing var
 const item =[
   {}
 ]
